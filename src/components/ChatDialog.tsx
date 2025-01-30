@@ -38,7 +38,7 @@ const ChatDialog = ({ open, onOpenChange }: { open: boolean; onOpenChange: (open
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="fixed bottom-28 right-8 mb-4 max-h-[600px] w-[380px] sm:max-w-[425px]">
         <div className="flex items-center gap-2 pb-4 border-b">
           <MessageCircle className="h-5 w-5" />
           <h2 className="text-lg font-semibold">Chat Support</h2>
